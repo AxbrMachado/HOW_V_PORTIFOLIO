@@ -27,6 +27,10 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content :flex-end;
+
   }
   
   nav li {
@@ -76,43 +80,37 @@
   }
   
   a:hover {
-    text-decoration: underline;
+    color: #666;
   }
   
-  form label {
+  form {
+    margin-top: 1rem;
+  }
+  
+  label {
     display: block;
     margin-bottom: 0.5rem;
   }
   
-  form input,
-  form textarea {
+  input,
+  textarea {
     display: block;
     width: 100%;
     padding: 0.5rem;
-    margin-bottom: 1rem;
     border: 1px solid #ccc;
-    border-radius: 0.25rem;
-    font-size: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
   }
   
-  form button {
-    display: block;
+  button[type="submit"] {
     background-color: #333;
     color: #fff;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     border: none;
-    border-radius: 0.25rem;
-    font-size: 1rem;
+    border-radius: 4px;
     cursor: pointer;
   }
   
-  form button:hover {
+  button[type="submit"]:hover {
     background-color: #444;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
   }
