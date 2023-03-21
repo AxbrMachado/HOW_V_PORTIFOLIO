@@ -114,3 +114,6 @@
   button[type="submit"]:hover {
     background-color: #444;
   }
+  .nome-rest {
+    text-align: center;
+  }
