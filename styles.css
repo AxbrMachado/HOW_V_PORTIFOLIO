@@ -144,3 +144,53 @@
     font-size: 1em;
     margin-bottom: 10px;
   }
+
+.menu {
+  margin: auto;
+  width: 1000px;
+  height: auto;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  background-color: #faf9f6;
+
+}
+
+.menu-top {
+  font-family: gabriola;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+
+}
+
+.menu-in {
+  font-family: gabriola;
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.entrada {
+  border: 1px solid;
+  width: 50%;
+  margin-left: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.prato-principal {
+  border: 1px solid;
+  width: 50%;
+  margin-left: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.sobremesa {
+  border: 1px solid;
+  width: 50%;
+  margin-left: 20px;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 30px;
+}
