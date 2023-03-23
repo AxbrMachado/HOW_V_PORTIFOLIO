@@ -150,77 +150,56 @@
     margin-bottom: 10px;
   }
 
-.menu {
-  margin: auto;
-  width: 1000px;
-  height: auto;
-  border: 1px solid lightgray;
-  border-radius: 20px;
-  background-color: #faf9f6;
+  /*CSS da pagina cardapio*/
 
-}
+  .produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
 
-.menu-top {
-  font-family: gabriola;
-  text-align: center;
-  padding: 20px;
-  font-size: 50px;
+  img {
+    width: 90%;
+  }
 
-}
+  .lista-produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1,5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
 
-.menu-in {
-  font-family: gabriola;
-  text-align: center;
-  padding: 15px;
-  font-size: 30px;
-  margin-top: 100px;
+  .lista-produtos li:hover {
+    border-color: #c78c19;
+  }
+
+  .lista-produtos li:active {
+    border-color: #088c19
+  }
+
+  .lista-produtos li:hover h2 {
+    font-size: 34px;
+  }
+
+  .lista-produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
   
-}
+  .produto-descricao {
+    font-size: 18px;
+  }
 
-.entrada {
-  width: 90%;
-  margin-left: 20px;
-  padding: 5px;
-  text-align: left;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+  .produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
 
-.prato-principal {
-  width: 90%;
-  margin-left: 20px;
-  padding: 5px;
-  text-align: left;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.sobremesa {
-  width: 90%;
-  margin-left: 20px;
-  padding: 5px;
-  text-align: left;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.foto-prato {
-  float: right;
-  width: 200px;
-}
-
-.foto-prato:hover {
-  float: right;
-  width: 210px;
-}
-
-.borda-menu {
-  border: 1px solid;
-  width: 90%;
-  margin: auto;
-}
-
-footer {
-margin-top: 100px;
-margin-bottom: 50px;
-}
+  /*FIM CSS da pagina Cardapio*/
