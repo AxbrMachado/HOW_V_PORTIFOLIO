@@ -179,10 +179,6 @@
     border-color: #c78c19;
   }
 
-  .lista-produtos li:active {
-    border-color: #088c19
-  }
-
   .lista-produtos li:hover h2 {
     font-size: 34px;
   }
@@ -202,4 +198,33 @@
     margin-top: 10px;
   }
 
+  .produtos h1 {
+    font-family: Chalkduster, fantasy;
+    font-size: 50px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: overline underline;
+  }
+
+  .lista-bebidas li {
+    display: inline-block;
+    text-align: center;
+    width: 18%;
+    vertical-align: top;
+    margin: 0 1,5%;
+    padding: 25px 15px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 8px;
+    margin-right: 5px;
+  }
+
+  .lista-bebidas li:hover {
+    border-color: #c78c19;
+  }
+
+  .lista-bebidas li:hover h2 {
+    font-size: 20px;
+  }
   /*FIM CSS da pagina Cardapio*/
