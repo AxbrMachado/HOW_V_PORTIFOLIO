@@ -13,6 +13,7 @@
   }
 
 .logo {
+  justify-content: left;
   position: absolute;
   width: 90px;
 }
@@ -153,7 +154,8 @@
   /*CSS da pagina cardapio*/
 
   .produtos {
-    width: 940px;
+    justify-content: center;
+    width: 1200px;
     margin: 0 auto;
     padding: 50px 0;
   }
@@ -165,7 +167,7 @@
   .lista-produtos li {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 23%;
     vertical-align: top;
     margin: 0 1,5%;
     padding: 30px 20px;
@@ -176,7 +178,7 @@
   }
 
   .lista-produtos li:hover {
-    border-color: #c78c19;
+    border-color: #C78C19;
   }
 
   .lista-produtos li:hover h2 {
@@ -210,21 +212,42 @@
   .lista-bebidas li {
     display: inline-block;
     text-align: center;
-    width: 18%;
+    width: 19%;
     vertical-align: top;
     margin: 0 1,5%;
     padding: 25px 15px;
     box-sizing: border-box;
     border: 2px solid;
     border-radius: 8px;
-    margin-right: 5px;
   }
 
   .lista-bebidas li:hover {
-    border-color: #c78c19;
+    border-color: #C78C19;
   }
 
   .lista-bebidas li:hover h2 {
     font-size: 20px;
   }
   /*FIM CSS da pagina Cardapio*/
+
+  .rodape {
+    display: flex;
+    justify-content: center;
+  }
+
+  .rodape img {
+    width: 50px;
+  }
+
+  .rodape p {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 30px;
+  }
+
+  .verticalline {
+    margin-right: 15px;
+    border-right: 3px solid black;
+    height: 50px;
+  }
