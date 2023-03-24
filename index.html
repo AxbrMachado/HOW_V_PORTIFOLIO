@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <title>Restaurante Porpeta</title>
 </head>
 <body>
     <header>
@@ -20,14 +22,13 @@
       </header>
       <main>
         <section>
-          <h2>Sobre Nós</h2>
-          <p>Somos um restaurante de cozinha Italiana, gastronomia de alta qualidade.
-                Somos todos Italianos,nascidos no Japão e criados no Afeganistão, irmãos de pais diferentes, puxamos o 
-                gosto pela nossa culinária do nosso tio avó que faleceu antes de nacermos.
-          </p>
+            <div class="carousel">
+              <img src="./pictures/Logo3.jpg" alt="">
+              <img src="./pictures/elyonann_Ancho_steak_with_rustic_potatoes_and_grilled_vegetable_bac979c8-e65f-469d-b6e7-b168717d2bb8.png" alt="">
+            </div>
         </section>
         <section>
-            <h2>Destaques da Semana</h2>
+            <div class="titulo-destaque"><h2>Destaques da Semana</h2></div>
             <ul>
               <li>
                 <div class="card">
@@ -62,20 +63,27 @@
             </ul>
           </section>
         <section>
-          <h2>Contato</h2>
-          <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem"></textarea>
-            <button type="submit">Enviar</button>
-          </form>
+          
         </section>
       </main>
       <footer>
+        
+        <div class="social-icons">
+        </div>
         <p class="footer-copy">&copy; 2023 Meu Portfólio. Todos os direitos reservados.</p>
-      </footer>   
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      <script>
+        $(document).ready(function(){
+        $('.carousel').slick({
+          dots: true, // exibe pontos de navegação abaixo do carrossel
+          arrows: false, // oculta os botões de navegação padrão
+          autoplay: true, // inicia a reprodução automática
+          autoplaySpeed: 2000 // define a velocidade da reprodução automática em milissegundos
+        });
+      });
+      </script> 
 </body>
+
 </html>
