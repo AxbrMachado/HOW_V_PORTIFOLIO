@@ -385,3 +385,69 @@ footer {
 .centro{
   padding: 10px;
 }
+/* teste  responsive */
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+  #my-element {
+   max-width: 100%;
+   
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #logo {
+  }
+  
+  .nome-rest {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  nav li {
+    margin: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .carousel img {
+    max-width: 100%;
+  }
+  
+  .titulo-destaque h2 {
+    font-size: 28px;
+  }
+  
+  .card {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+@media (max-width: 600px) {
+  header #my-element {
+    display: none;
+  }
+  .show-nav {
+  display: block;
+}
+}
+@media (min-width: 600px) {
+  .show-nav {
+    display: none;
+  }
+}
